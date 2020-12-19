@@ -1,7 +1,7 @@
-#include "Employee.h"
+#include "Work_on.h"
 
-Employee::Employee(){}
-Employee::Employee(int id, string fName, string mInit, string lName, long ssn, string bDate, string address, char sex, int salary, long superSSN, int dno){
+Work_on::Work_on(){}
+Work_on::Work_on(int id, string fName, string mInit, string lName, long ssn, string bDate, string address, char sex, int salary, long superSSN, int dno){
     Id = id;
     FName = fName;
     MInit = mInit;
