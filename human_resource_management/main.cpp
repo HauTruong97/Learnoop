@@ -23,7 +23,8 @@ int main(){
          cin>>key;
     switch(key){
     case 1:
-    for (int i=0;i<soLuongOfEmployee;i++){
+    std::cout<<"soLuongOfEmployee:"<<" "<<soLuongOfEmployee<<endl;
+    for (int i=0;i<=soLuongOfEmployee;i++){
         employee[i].add();
     }
     soLuongOfEmployee++;
