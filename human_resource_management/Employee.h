@@ -1,7 +1,8 @@
 #ifndef _EMPLOYEE_H_
 #define _EMPLOYEE_H_
+#include "Base.h"
 #include <string>
-class Employee{
+class Employee:public Base{
     int Id; //id is increasing number
     std::string FName, MInit, LName; // first and last name of employee
     long SSN; // security number of manager 
@@ -16,5 +17,6 @@ public:
     Employee();
     // Contructor with paramaters
     Employee(int id, std::string fName, std::string mInit, std::string lName, long ssn, std::string bDate, std::string address, char sex, int salary, long superSSN, int dno);
+    void add() override;
 };
 #endif

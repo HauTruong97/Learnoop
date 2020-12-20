@@ -16,3 +16,7 @@ Employee::Employee(int id, std::string fName, std::string mInit, std::string lNa
     SuperSSN = superSSN;
     DNO = dno;
 }
+
+void Employee::add(){
+printf("Truong Van Hau");
+}
